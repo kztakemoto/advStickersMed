@@ -37,16 +37,16 @@ python train_surrogate_models.py --net res18
 
 Available model architectures:
 
+* ResNet-50: ``--net res50``
 * VGG-16: ``--net vgg16``
+* VGG-19: ``--net vgg19``
 * MobileNetV2 ``--net mobilenetv2``
+* MobileNetV3: ``--net mobilenetv3``
 * EfficientNet-B1: ``--net efficientnet_b1``
 * DenseNe-121: ``--net densenet121``
-* ViT-Small-16: ``--net vit_small_16``
-* MobileNetV3: ``--net mobilenetv3``
-* ResNet-50: ``--net res50``
-* ViT-Base-16: ``--net vit_base_16``
 * DenseNet-201: ``--net densenet201``
-* VGG-19: ``--net vgg19``
+* ViT-Small-16: ``--net vit_small_16``
+* ViT-Base-16: ``--net vit_base_16``
 
 ### Generate Adversarial Camera Stickers
 Generate a adversarial sticker with 25 dots using ResNet-18 as the surrogate model:
