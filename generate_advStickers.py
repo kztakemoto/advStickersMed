@@ -141,7 +141,7 @@ if 'cuda' in device:
 
 # Load checkpoint.
 print('==> Loading checkpoint..')
-checkpoint = torch.load('../checkpoint_medical/{}-{}-bs256-adam-lr5e-05-randaug2-14ckpt.t7'.format(args.dataset, args.net))
+checkpoint = torch.load('./checkpoint_medical/{}-{}-bs256-adam-lr5e-05-randaug2-14ckpt.t7'.format(args.dataset, args.net))
 
 net.load_state_dict(checkpoint['model'])
 
