@@ -20,9 +20,15 @@ pip install -r requirements.txt
 ### Download Skin Lesion Image Dataset
 Download the dataset from [ISIC 2018 Challenge.](https://challenge.isic-archive.com/data/#2018)
 
-Direct links:
-* [Skin Lesion Images](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_Input.zip)
-* [Ground Truth Labels](https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip)
+Skin Lesion Images
+```
+wget https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_Input.zip
+```
+
+Ground Truth Labels
+```
+wget https://isic-challenge-data.s3.amazonaws.com/2018/ISIC2018_Task3_Training_GroundTruth.zip
+```
 
 ### Format the Dataset
 ```
