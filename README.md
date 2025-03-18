@@ -55,7 +55,7 @@ Available model architectures:
 * ViT-Base-16: ``--net vit_base_16``
 
 ### Generate Adversarial Camera Stickers
-Generate a adversarial sticker with 25 dots using ResNet-18 as the surrogate model:
+Generate an adversarial sticker with 25 dots using ResNet-18 as the surrogate model:
 ```
 python generate_advStickers.py --nb_dots 25 --net res18
 ```
