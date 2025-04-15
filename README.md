@@ -4,7 +4,7 @@ This repository contains code for assessing the vulnerability of medical mobile 
 ## Terms of Use
 This project is MIT licensed. If you use this code in your research, please cite our paper:
 
-Oda J and Takemoto K (2025) Mobile applications for skin cancer detection are vulnerable to physical camera-based adversarial attacks.
+Oda J and Takemoto K (2025) Mobile applications for skin cancer detection are vulnerable to physical camera-based adversarial attacks. PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-5934018/v1]
 
 ## Requirements
 
