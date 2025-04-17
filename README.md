@@ -4,7 +4,7 @@ This repository contains code for assessing the vulnerability of medical mobile 
 ## Terms of Use
 This project is MIT licensed. If you use this code in your research, please cite our paper:
 
-Oda J and Takemoto K (2025) Mobile applications for skin cancer detection are vulnerable to physical camera-based adversarial attacks. PREPRINT (Version 1) available at Research Square [https://doi.org/10.21203/rs.3.rs-5934018/v1]
+Oda J and Takemoto K (2025) Mobile applications for skin cancer detection are vulnerable to physical camera-based adversarial attacks. PREPRINT (Version 1) available at Research Square. https://doi.org/10.21203/rs.3.rs-5934018/v1
 
 ## Requirements
 
@@ -49,7 +49,7 @@ Available model architectures:
 * MobileNetV2 ``--net mobilenetv2``
 * MobileNetV3: ``--net mobilenetv3``
 * EfficientNet-B1: ``--net efficientnet_b1``
-* DenseNe-121: ``--net densenet121``
+* DenseNet-121: ``--net densenet121``
 * DenseNet-201: ``--net densenet201``
 * ViT-Small-16: ``--net vit_small_16``
 * ViT-Base-16: ``--net vit_base_16``
